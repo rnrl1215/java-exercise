@@ -1,4 +1,4 @@
-package genric.base;
+package generic.base;
 
 public class Car extends Vehicle {
     public Car(String type) {

@@ -1,12 +1,9 @@
-package genric.test;
+package generic.test;
 
-import genric.base.Boat;
-import genric.base.Car;
-import genric.base.House;
-import genric.service.VehicleRepairService;
-
-import java.util.ArrayList;
-import java.util.List;
+import generic.base.Boat;
+import generic.base.Car;
+import generic.base.House;
+import generic.service.VehicleRepairService;
 
 public class Test {
     public static void main(String[] args) {
