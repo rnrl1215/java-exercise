@@ -1,4 +1,4 @@
-package generic.base;
+package generic.base.model;
 
 import lombok.Getter;
 

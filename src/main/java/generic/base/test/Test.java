@@ -1,9 +1,9 @@
-package generic.test;
+package generic.base.test;
 
-import generic.base.Boat;
-import generic.base.Car;
-import generic.base.House;
-import generic.service.VehicleRepairService;
+import generic.base.model.Boat;
+import generic.base.model.Car;
+import generic.base.model.House;
+import generic.base.service.VehicleRepairService;
 
 public class Test {
     public static void main(String[] args) {
@@ -17,6 +17,7 @@ public class Test {
         carVehicleRepairService.repair(car);
         //carVehicleRepairService.repair(boat);
 
+        // 가능하면 안됨
         House house = new House();
         VehicleRepairService<House> vehicleRepairRepairService = new VehicleRepairService<>();
         vehicleRepairRepairService.repair(house);

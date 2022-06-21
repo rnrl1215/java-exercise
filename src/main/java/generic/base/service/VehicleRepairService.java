@@ -1,6 +1,6 @@
-package generic.service;
+package generic.base.service;
 
-import generic.base.Vehicle;
+import generic.base.model.Vehicle;
 
 public class VehicleRepairService<T> {
     public boolean isSupport(T t) {
