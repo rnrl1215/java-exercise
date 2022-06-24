@@ -4,10 +4,8 @@ import generic.wildcard.model.Vehicle;
 import generic.wildcard.model.VehicleContainer;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.List;
-
 @Slf4j
-public class WildCardRepairService {
+public class VehicleServiceCenter {
 
     public static void repair(VehicleContainer<? extends Vehicle> vehicleContainer) {
         log.info("container list size : {}", vehicleContainer.getSize());
