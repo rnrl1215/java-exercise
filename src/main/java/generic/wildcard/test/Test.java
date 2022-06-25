@@ -5,7 +5,6 @@ import generic.wildcard.model.Boat;
 import generic.wildcard.model.Car;
 import generic.wildcard.model.Vehicle;
 import generic.wildcard.model.VehicleContainer;
-import generic.wildcard.service.RepairService;
 import generic.wildcard.service.VehicleServiceCenter;
 import lombok.extern.slf4j.Slf4j;
 
